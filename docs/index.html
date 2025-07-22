@@ -105,12 +105,15 @@
       margin-bottom: 1rem;
     }
 
-    .profile-photo {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
+       .profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top; /* show more of the top */
+  transform: translateY(10px); /* shift the image down */
+}
+
 
     .hero h1 {
       font-size: 2.6rem;
