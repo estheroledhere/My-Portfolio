@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-  <title>Bluewave Dev Hub</title>
+  <title>Dev Portfolio</title>
   <style>
     :root {
       --primary: #1B1F3B;
@@ -105,12 +105,15 @@
       margin-bottom: 1rem;
     }
 
-    .profile-photo {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
+        .profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top; /* show more of the top */
+  transform: translateY(10px); /* shift the image down */
+}
+
 
     .hero h1 {
       font-size: 2.6rem;
@@ -254,7 +257,7 @@
 <body>
   <header>
     <nav class="nav">
-      <div class="logo">Bluewave Dev Hub</div>
+      <div class="logo">Dev Portfolio</div>
       <button class="nav-toggle" aria-label="toggle menu">☰</button>
       <ul class="nav-menu">
         <li><a href="#skills">Skills</a></li>
@@ -265,12 +268,12 @@
 
     <div class="hero">
       <div class="profile-wrapper">
-         <img class="profile-photo" src="static/images/charles2.jpg" alt="Charles Image">
+         <img class="profile-photo" src="static/images/esther.jpg" alt="Esther Image">
 
       </div>
       <h1>Website Developer</h1>
       <p>Crafting innovative web & mobile experiences that elevate your brand and drive results.</p>
-      <a href="https://wa.me/2348173469993" class="btn btn-primary">Chat on WhatsApp</a>
+      <a href="https://wa.me/2348110034706" class="btn btn-primary">Chat on WhatsApp</a>
     </div>
   </header>
 
@@ -323,12 +326,12 @@
   <section id="contact" class="section contact">
     <h2>Let’s Work Together</h2>
     <p>Have a project in mind? Reach out and let’s bring it to life!</p>
-    <a href="https://wa.me/2348173469993" class="btn btn-primary">WhatsApp</a>
-    <a href="mailto:charles4python@gmail.com" class="btn btn-primary">Email Me</a>
+    <a href="https://wa.me/2348110034706" class="btn btn-primary">WhatsApp</a>
+    <a href="mailto:esther.rabor27@gmail.com" class="btn btn-primary">Email Me</a>
   </section>
 
   <footer class="footer">
-    <p>© 2025 Bluewave Dev Hub. Crafted with passion and code.</p>
+    <p>© 2025 Dev Portfolio. Crafted with passion and code.</p>
   </footer>
 
   <script>
